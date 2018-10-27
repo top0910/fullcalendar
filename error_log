@@ -1,0 +1,4 @@
+[01-Jan-2018 13:02:39 Etc/GMT] PHP Fatal error:  Call to a member function set_newline() on a non-object in /home/nsekeqoz/public_html/strata_new/application/controllers/User_login.php on line 70
+[01-Jan-2018 13:03:35 Etc/GMT] PHP Fatal error:  Call to a member function set_newline() on a non-object in /home/nsekeqoz/public_html/strata_new/application/controllers/User_login.php on line 70
+[01-Jan-2018 13:21:26 Etc/GMT] PHP Fatal error:  Call to a member function set_newline() on a non-object in /home/nsekeqoz/public_html/strata_new/application/controllers/User_login.php on line 70
+[01-Jan-2018 13:21:41 Etc/GMT] PHP Fatal error:  Call to a member function set_newline() on a non-object in /home/nsekeqoz/public_html/strata_new/application/controllers/User_login.php on line 70

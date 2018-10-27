@@ -1,0 +1,227 @@
+/*
+Template Name: Monster Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+
+/*============================================================== 
+ For all pages 
+ ============================================================== */
+
+#main-wrapper {
+    width: 100%;
+}
+
+.page-wrapper {
+    background: $bodycolor;
+    overflow:hidden;
+}
+
+.container-fluid {
+    padding: 25px 15px 0 15px;
+}
+
+.display-7 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+/*============================================================== 
+ Index page 
+ ============================================================== */
+
+.topheader {
+    padding: 15px 0px;
+    background: $white;
+}
+
+.topheader .stylish-nav {
+    .nav-link {
+        padding: .5rem 20px;
+    }
+}
+
+.banner-text {
+    padding: 10px 0 0 0;
+    min-height:500px;
+    h1 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 42px;  
+    }
+    .subtext {
+        line-height: 27px;
+        margin: 30px 0;
+    }
+    .down-btn {
+        .btn {
+            padding: 13px 30px;
+            margin: 5px 20px 5px 0;
+            font-size: 16px;
+            min-width: 200px;
+        }
+    }
+}
+.hero-banner{
+    height: 500px;
+    
+    width:0px;
+    z-index: 0;
+    img{
+        -webkit-animation: 0.6s ease-in-out 0.3s showIntroShot1;
+        animation: 0.6s ease-in-out 0.3s showIntroShot1;
+        animation-fill-mode: both;}
+}
+@-webkit-keyframes showIntroShot1 {
+    0% {
+        opacity: 0;
+        -webkit-transform: perspective(700px) translate3d(200px, 300px, 200px);
+        transform: perspective(700px) translate3d(200px, 300px, 200px)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: perspective(700px) translate3d(0px, 0px, 0px);
+        transform: perspective(700px) translate3d(0px, 0px, 0px)
+    }
+}
+.max-width{
+    max-width: 1600px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.light-blue {
+    background: $extra-light;
+    padding: 80px 0;
+    position: relative;
+    z-index: 10;
+}
+
+.white-space {
+    background: $white;
+    padding: 80px 0;
+}
+
+.image-box {
+    position: relative;
+    transition: 0.2s ease-in;
+    box-shadow: 0px 5px 50px rgba(26, 137, 159, 0.3);
+    .image-overly {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        display: none;
+        transition: 0.1s ease-in;
+        padding-top: 44%;
+        background: rgba(255, 255, 255, 0.9);
+    }
+    &:hover .image-overly {
+        display: block;
+    }
+    &:hover{
+       
+        transform: translate3d(0px, -10px, 0px);
+    }
+}
+
+.icon-section {
+    .row .col-lg-3{
+        border: 1px solid $border;
+        padding: 30px;
+        transition: 0.1s ease-in;
+        position: relative;
+        background: $white;
+        min-height: 250px;
+        &:hover{
+            box-shadow:0 5px 50px rgba(0, 0, 0, 0.05);
+            transform: scale(1.1);
+           z-index: 10;
+        }
+    }
+    h4 {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+}
+
+.dual-bg {
+    padding: 80px 0 0 0;
+}
+.bt-top{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 12;
+}
+.testimonial-text {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    line-height: 34px;
+}
+
+.call-to-action {
+    padding: 28px 0;
+    overflow: hidden;
+    span {
+        color: $white;
+        font-weight: 500;
+        font-size: 24px;
+        padding-top: 5px;
+    }
+    .buy-btn,
+    .suggest-btn {
+        background: none;
+        border: 2px solid $white;
+        padding: 12px 30px;
+        color: $white;
+        margin-left: 10px;
+        &:hover {
+            color: $bodytext;
+            background: $white;
+            opacity: 1;
+        }
+    }
+}
+
+ul.list-icons {
+    margin: 0px;
+    padding: 0px;
+    li {
+        list-style: none;
+        line-height: 40px;
+        a{
+            color:#8f9aa5;
+            &:hover{
+                color:$white;
+            }
+            i {
+                font-size: 12px;
+                margin-right: 5px;
+            }
+        }
+        
+    }
+}
+
+.footer{
+    padding: 80px 0 30px;
+    background: $inverse;
+    color:#8f9aa5;
+}
+.footer .sub-footer {
+    margin-top: 60px;
+    border-top: 1px solid $border;
+    padding: 30px 0 0;
+}
+.dropdown{
+    &:hover{
+        .dropdown-menu{
+            display: block;
+        }
+    }
+}
